@@ -1,0 +1,41 @@
+{
+  "purpose": "order_transponder",
+  "authenticationType": "None",
+  "utterances": [
+    "I want to order a transponder",
+    "I want to order a transponder for an {RV}",
+    "I want to order an {exterior} transponder",
+    "I want to order an {interior} transponder for my {motorcycle}"
+  ],
+  "entities": [
+    "VehicleType",
+    "TransponderType"
+  ],
+  "mappers": [
+    {
+      "entityName": "VehicleType",
+      "type": "LuisEntityToPropertyMapper"
+    },
+    {
+      "entityName": "TransponderType",
+      "type": "LuisEntityToPropertyMapper"
+    }
+  ],
+  "prompts": [
+    {
+      "entityName": "VehicleType",
+      "propertyName": "VehicleType",
+      "value": "Is this for a passenger vehicle, motorcycle or RV?",
+      "retryValue": "Sorry, I don't understand. Is this for a passenger vehicle, motorcycle or RV?"
+    },
+    {
+      "entityName": "TransponderType",
+      "propertyName": "TransponderType",
+      "value": "Is this for exterior or interior transponder?",
+      "retryValue": "Sorry, I don't understand. Is this for exterior or interior transponder?"
+    }
+  ],
+  "outcome": {
+    "value": "Thank you. Your order has been placed for an **{TransponderType} {VehicleType}** transponder."
+  }
+}

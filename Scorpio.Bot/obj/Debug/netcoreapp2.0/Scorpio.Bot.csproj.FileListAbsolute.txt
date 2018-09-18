@@ -1,0 +1,12 @@
+E:\POC\New Demo\Scorpio.Bot\bin\Debug\netcoreapp2.0\Scorpio.Bot.deps.json
+E:\POC\New Demo\Scorpio.Bot\bin\Debug\netcoreapp2.0\Scorpio.Bot.runtimeconfig.json
+E:\POC\New Demo\Scorpio.Bot\bin\Debug\netcoreapp2.0\Scorpio.Bot.runtimeconfig.dev.json
+E:\POC\New Demo\Scorpio.Bot\bin\Debug\netcoreapp2.0\Scorpio.Bot.dll
+E:\POC\New Demo\Scorpio.Bot\bin\Debug\netcoreapp2.0\Scorpio.Bot.pdb
+E:\POC\New Demo\Scorpio.Bot\obj\Debug\netcoreapp2.0\Scorpio.Bot.csprojAssemblyReference.cache
+E:\POC\New Demo\Scorpio.Bot\obj\Debug\netcoreapp2.0\Scorpio.Bot.csproj.CoreCompileInputs.cache
+E:\POC\New Demo\Scorpio.Bot\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+E:\POC\New Demo\Scorpio.Bot\obj\Debug\netcoreapp2.0\Scorpio.Bot.AssemblyInfoInputs.cache
+E:\POC\New Demo\Scorpio.Bot\obj\Debug\netcoreapp2.0\Scorpio.Bot.AssemblyInfo.cs
+E:\POC\New Demo\Scorpio.Bot\obj\Debug\netcoreapp2.0\Scorpio.Bot.dll
+E:\POC\New Demo\Scorpio.Bot\obj\Debug\netcoreapp2.0\Scorpio.Bot.pdb
